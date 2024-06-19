@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.login {
+    text-decoration: none;
+    border: 2px solid #ffffff;
+}
+
+.login:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#temperature-gauge {
+    width: 60%;
+    height: auto;
+}
+
+#humidity-gauge {
+    width: 60%;
+    height: auto;
+}
+
+#noise-gauge {
+    width: 60%;
+    height: auto;
+}
+
+#air-quality-gauge {
+    width: 60%;
+    height: auto;
+}
